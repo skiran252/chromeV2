@@ -4,7 +4,7 @@
 	"version": "1.0",
 	"manifest_version": 3,
 	"action": {
-		"default_popup": "index.html",
+		"default_popup": "popup.html",
 		"default_title": "Open the extension",
 		"default_icon": {
 			"16": "logo192.png",
@@ -27,19 +27,16 @@
 		"identity",
 		"identity.email",
 		"notifications",
-		"background",
-		"https://*/*",
-		"speechRecognition"
+		"background"
 	],
 	"content_scripts": [
 		{
 			"matches": ["http://*/*", "https://*/*"],
-			"js": ["./static/js/content.js"],
+			"js": ["./js/content.js"],
 			"all_frames": false,
 			"run_at": "document_end"
 		}
 	],
-	"optional_permissions": ["<all_urls>"],
 	"background": {
 		"service_worker": "background.js"
 	},

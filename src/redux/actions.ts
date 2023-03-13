@@ -1,0 +1,11 @@
+// create actions for redux
+
+// Action Types
+export const START_RECORDING = "START_RECORDING";
+export const STOP_RECORDING = "STOP_RECORDING";
+export const STORE_TRANSCRIPT = "STORE_TRANSCRIPT";
+export const UPLOAD_AUDIO = "UPLOAD_AUDIO";
+export const UPLOAD_AUDIO_SUCCESS = "UPLOAD_AUDIO_SUCCESS";
+export const UPLOAD_AUDIO_FAILURE = "UPLOAD_AUDIO_FAILURE";
+export const RESET_AUDIO = "RESET_AUDIO";
+export const STORE_RESULTS = "STORE_RESULTS";
