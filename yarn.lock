@@ -8000,6 +8000,11 @@ react-media-recorder@^1.6.6:
     extendable-media-recorder "^6.6.5"
     extendable-media-recorder-wav-encoder "^7.0.68"
 
+react-quizlet-flashcard@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/react-quizlet-flashcard/-/react-quizlet-flashcard-3.0.0.tgz#569f2db31eaede5238d5304a86b9328d87d182de"
+  integrity sha512-Q2noz6MgQyeGn8qs/2ohj41j9jk/adcfDcJQZaVXF2bYrczcad4ZCbjr2MhjarVZ+HUyYv5MPckHym2xsNk3Xg==
+
 react-redux@^8.0.5:
   version "8.0.5"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-8.0.5.tgz#e5fb8331993a019b8aaf2e167a93d10af469c7bd"
